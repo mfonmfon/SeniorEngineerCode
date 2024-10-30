@@ -7,11 +7,18 @@ public class Cat  implements Serializable {
     private String mew;
     private String age;
 
+    public Cat(){
+
+    }
+
     public Cat(String mew, String age){
         this.mew = mew;
         this.age = age;
 
     }
+
+
+
 
     public String getMew() {
         return mew;
