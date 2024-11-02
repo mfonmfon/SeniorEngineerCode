@@ -20,6 +20,5 @@ public class ExampleFive {
            exception.getStackTrace();
             System.out.println("Error writing to json file with msg" + exception.getMessage());
         }
-
     }
 }
